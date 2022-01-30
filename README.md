@@ -16,8 +16,14 @@
 
 This application uses <b>Content Based Movie Recommendation</b> to recommend movies to the user.<b>TMDB</b> API was used to retrieve all the information related to the movie and its cast. <b>Web Scraping</b> was done on <b>IMDB</b> website to get the reviews related to the searched movie. Sentiments analysis is done using a machine learning model trained on a sample of IMDB Dataset.<br/>
 
-<b>Deployed Application Link:  <br/>
-   
+##<b>Deployed Application Link:  <br/>
+
+## Sources of the datasets 
+
+1. [IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
+2. [IMDB 50k Movie Reviews Dataset](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) 
+  
+ 
 ## Work flow of API
    
 ![Workflow of api](https://user-images.githubusercontent.com/89459208/151705962-0d75c537-a6e0-4017-8615-8a804f4f3b85.jpeg)
