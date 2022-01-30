@@ -17,11 +17,11 @@
 This application uses <b>Content Based Movie Recommendation</b> to recommend movies to the user.<b>TMDB</b> API was used to retrieve all the information related to the movie and its cast. <b>Web Scraping</b> was done on <b>IMDB</b> website to get the reviews related to the searched movie. Sentiments analysis is done using a machine learning model trained on a sample of IMDB Dataset.<br/>
 
 <b>Deployed Application Link:  <br/>
+   
+## Work flow of API
+   
+![Workflow of api](https://user-images.githubusercontent.com/89459208/151705962-0d75c537-a6e0-4017-8615-8a804f4f3b85.jpeg)
 
 ## Work flow of Data
    
 ![data](https://user-images.githubusercontent.com/89459208/151705957-193da161-7eb4-4369-9aa9-f21d8bfa324d.jpeg)
-
-## Work flow of API
-   
-![Workflow of api](https://user-images.githubusercontent.com/89459208/151705962-0d75c537-a6e0-4017-8615-8a804f4f3b85.jpeg)
