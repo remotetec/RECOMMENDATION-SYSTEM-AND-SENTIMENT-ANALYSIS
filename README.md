@@ -25,9 +25,9 @@ This application uses <b>Content Based Movie Recommendation</b> to recommend mov
 </div>
 
 ## Work flow of Data
-
-   ![data](https://user-images.githubusercontent.com/89459208/151705647-3c2cce62-4de7-4914-a3be-9b4854d2b59b.jpeg)
+   
+![data](https://user-images.githubusercontent.com/89459208/151705957-193da161-7eb4-4369-9aa9-f21d8bfa324d.jpeg)
 
 ## Work flow of API
    
-![Workflow of api](https://user-images.githubusercontent.com/89459208/151705713-87d4af2a-b5b0-4796-aa5b-2fe0c517b673.jpeg)
+![Workflow of api](https://user-images.githubusercontent.com/89459208/151705962-0d75c537-a6e0-4017-8615-8a804f4f3b85.jpeg)
