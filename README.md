@@ -2,7 +2,7 @@
 
 <h1>Movie Recomendation System with Sentiment Analysis</h1>
 <img src="https://img.shields.io/badge/Python-3.7.3-brown" />
-<img src="https://img.shields.io/badge/Frontend-HTML/CSS/JS-orange" />
+<img src="https://img.shields.io/badge/Frontend-HTML/CSS/JS/AJAX-orange" />
 <img src="https://img.shields.io/badge/BackendAPI-Flask-yellow" />
 <img src="https://img.shields.io/badge/OtherAPI-TMDB-red" />
 <img src="https://img.shields.io/badge/Deployment-Heroku-blue" />
@@ -17,12 +17,6 @@
 This application uses <b>Content Based Movie Recommendation</b> to recommend movies to the user.<b>TMDB</b> API was used to retrieve all the information related to the movie and its cast. <b>Web Scraping</b> was done on <b>IMDB</b> website to get the reviews related to the searched movie. Sentiments analysis is done using a machine learning model trained on a sample of IMDB Dataset.<br/>
 
 <b>Deployed Application Link:  <br/>
-
-## Demo
-
-<div align="center">
-<img src="./readme_assets/demo.gif" alt="demo" />
-</div>
 
 ## Work flow of Data
    
