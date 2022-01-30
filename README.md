@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/Python-3.7.3-brown" />
 <img src="https://img.shields.io/badge/Frontend-HTML/CSS/JS/AJAX-orange" />
 <img src="https://img.shields.io/badge/BackendAPI-Flask-yellow" />
-<img src="https://img.shields.io/badge/OtherAPI-TMDB-red" />
+<img src="https://img.shields.io/badge/OtherAPI-TMDB/IMDB-red" />
 <img src="https://img.shields.io/badge/Deployment-Heroku-blue" />
 </div>
 
