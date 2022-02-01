@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="..\static\logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Auto Complete -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/css/autoComplete.min.css">
+
+  <!-- ==================================================================================================================== -->
+
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- ==================================================================================================================== -->
+
+  <!-- --------------------------------------------------------------------------------------------------------------------- -->
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+  <!-- <link rel= "stylesheet" type= "text/css" href= "..\static\style.css"> -->
+  <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+  <script type="text/javascript">
+    // var films = {{suggestions|tojson}};
+  </script>
+
+</head>
+
+<body id="content" style="font-family: 'Noto Sans JP', sans-serif;">
+
+<div class="ml-container" style="display: block;"><br><br>
+
+<div class="title_card_wrapper">
+  <div class="title_card">
+    <img class="title_logo" src="{{url_for('static', filename='projecter.jpg')}}" alt="logo"/>
+    <h1 class="title wh"> R & M&emsp;MOVIE&nbsp;&nbsp;ZONE </h1>
+    <img class="title_logo" src="{{url_for('static', filename='projecter.jpg')}}" alt="logo"/>
+  </div>
+</div>
+
+
+<!-- 
+<div class="app__search_container">
+  <div class="search_wrapper">
+    <input class="search_input" name="movie" type="text"  placeholder="Search For A Movie"   required="required" />
+  </div> 
+</div> -->
+
+
+
+<div class="form-group shadow-textarea" style="margin-top: 30px;text-align: center;color: white;">
+  <input type="text" name="movie" class="movie form-control" id="autoComplete" autocomplete="off" style="background-color: #ffffff;border-color:#ffffff;width: 800px; height: 40px; border-radius: 0%; color: #181818" placeholder="Search For A Movie" required="required" />
+  <br>
+</div>
+
+    <div class="form-group" style="text-align: center;">
+      <button class="search_button btn btn-primary btn-block movie-button" disabled="true"> <i class='fa fa-search'></i> Enter</button><br><br>
+    </div>
+
+	</div>
+
+  <div id="loader" class="text-center">
+  </div>
+  
+  <div class="fail">
+    <center><h3>Sorry! The movie you requested is not in our database. 
+    Please check the spelling or try with other movies!</h3></center>
+  </div>
+
+	<div class="results">
+    <center>
+      <h2 id="name" class="text-uppercase"></h2>
+    </center>
+	</div>
+	
+	<!-- <div class="footer">Made with<span style="font-size:150%;color:red;"> &hearts; </span>by Mohit Gupta</div> -->
+
+
+<!-- About Application  -->
+<br />
+<center>
+<h1 class="title about_title wh" style="font-family: 'Dancing Script', cursive;">About Application</h1>
+</center>
+
+<div class="aboutme_container">
+  <div class="aboutme_card">     
+    <div class="aboutme_card__content wh">
+
+      <p>
+          Welcome to R & M MOVIE ZONE . This is an AI based web application in
+          which you can search for any Hollywood Movie. This application will
+          provide all the information related to that movie, does sentiment
+          analysis on the movie reviews and the most interesting part, this
+          application will provide you the top 10 movie recommendations based on
+          your search. Search for a movie for better experience.
+      </p>
+      
+    </div>
+  </div>
+</div>
+
+<br />
+
+<!-- 
+<div class="aboutme_container">
+  <div class="card" >     
+      <p>  Welcome to H M D B    </p>    
+  </div>
+</div> -->
+
+
+<center>
+  <h1 class="title about_title wh" style="font-family: 'Dancing Script', cursive;" >About Creator</h1>
+</center>
+
+<div class="aboutme_container">
+  <div class="aboutme_card">
+    <img class="aboutme_card__image" src="{{url_for('static', filename='rohit_sahu.jpeg')}}" align="middle" />
+    <div class="aboutme_card__content">
+      <h1 class="about_name" style="color: white;">Rohit Sahu</h1>
+      <div class="stroke" style="background-Color: white; height: 1px; width: 100%; margin-top: 4px;">
+      </div>
+      <br />
+      <p class="wh">
+        Hey there! Glad you clicked into my site. I am a self taught
+        developer. I am most passionate in working with data science
+        projects. For any queries feel free to contact me through the
+        below mentioned links.
+      </p>
+      <div class="aboutme_card__sociallinks">
+        <div>
+          <a href="https://www.linkedin.com/in/rohit-sahu-797657206/" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon class="icon social_icon_linkedin" /><i class="fa fa-linkedin-square"></i>
+          </a>
+
+          <a href="https://github.com/rohitsahu70" target="_blank" rel="noopener noreferrer">
+            <GitHubIcon class="social_icon_github " /><i class="fa fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- ========================================================================== -->
+
+
+<div class="aboutme_container">
+  <div class="aboutme_card">
+    <img class="aboutme_card__image" src="{{url_for('static', filename='mohit_gupta.jpeg')}}" align="middle" />
+    <div class="aboutme_card__content">
+      <h1 class="about_name" style="color: white;">Mohit Gupta</h1>
+      <div class="stroke" style="background-Color: white; height: 1px; width: 100%; margin-top: 4px;">
+      </div>
+      <br />
+      <p class="wh">
+        Hey there! Glad you clicked into my site. I am a self taught
+        developer. I am most passionate in working with data science
+        projects. For any queries feel free to contact me through the
+        below mentioned links.
+      </p>
+      <div class="aboutme_card__sociallinks">
+        <div>
+          <a href="https://www.linkedin.com/in/mohit-gupta-007266213" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon class="icon social_icon_linkedin" /><i class="fa fa-linkedin-square"></i>
+          </a>
+
+          <a href="https://github.com/Mohit-Gupta275" target="_blank" rel="noopener noreferrer">
+            <GitHubIcon class="social_icon_github " /><i class="fa fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- ===================================================================================================================== -->
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+
+  <!-- ------------------------------------------------------------------------------------------------ -->
+  <script type="text/javascript" src="{{url_for('static', filename='autocomplete.js')}}"></script>
+  <!-- <script type="text/javascript" src="..\static\autocomplete.js" ></script> -->
+  <!-- ------------------------------------------------------------------------------------------------ -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- ------------------------------------------------------------------------------------------------ -->
+  <script type="text/javascript" src="{{url_for('static', filename='recommend.js')}}"></script>
+  <!-- <script type="text/javascript" src="..\static\recommend.js" ></script> -->
+  <!-- ------------------------------------------------------------------------------------------------ -->
+
+</body>
+</html>
