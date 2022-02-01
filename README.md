@@ -14,7 +14,7 @@
 
 This application uses <b>Content Based Movie Recommendation</b> to recommend movies to the user.<b>TMDB</b> API was used to retrieve all the information related to the movie and its cast. <b>Web Scraping</b> was done on <b>IMDB</b> website to get the reviews related to the searched movie. Sentiments analysis is done using a machine learning model trained on a sample of IMDB Dataset.<br/>
 
-##Deployed Application Link: 
+## Deployed Application Link: 
   
   https://rmmoviezone.herokuapp.com/
 
